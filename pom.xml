@@ -63,6 +63,15 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 
+			        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <configuration>
+            <!-- put your configurations here -->
+          </configuration>
+        </plugin>
+
+
 		</plugins>
 	</build>
 
